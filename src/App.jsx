@@ -4,7 +4,7 @@ import QuoteCard from "./component/QuoteCard";
 export default function App() {
   const [quotes, setQuotes] = useState([]);
   const [selectedQuote, setSelectedQuote] = useState({});
-  const [backgroundColor, setBackgroundColor] = useState("");
+  const [backgroundColor, setBackgroundColor] = useState("#472E32");
 
   const colors = [
     "#16a085",
