@@ -1,5 +1,9 @@
-function App() {
-  return;
-}
+import QuoteCard from "./component/QuoteCard";
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <QuoteCard />
+    </>
+  );
+}

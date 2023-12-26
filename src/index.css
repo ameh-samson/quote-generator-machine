@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.4;
+}
+
+#root {
+  padding-inline: 2em;
+  margin: 0 auto;
+}
+
+p,
+blockquote,
+footer {
+  padding: 0;
+  margin: 0;
+}
+
+.quoteCard-container {
+  background: red;
+  padding: 2.5em 3.125em;
+  width: 450px;
+  border-radius: 6px;
+}
+
+blockquote {
+  font-size: 1.75rem;
+}
+
+.quote {
+  font-weight: 500;
+  text-align: justify;
+}
+
+footer.author {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.75em;
+  text-align: right;
+}
+
+.share-icon {
+  font-size: 1.5rem;
+  margin-right: 0.25em;
+  background: #fff;
+  padding: 0.135em;
+  border-radius: 5px;
+}
+
+.quote-share {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+}
+
+button.new-quote-btn {
+  margin-left: auto;
+  padding: 0.5em;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button.new-quote-btn.hovered {
+  box-shadow: 0px 4px 25px 0px #0000001a;
+}
