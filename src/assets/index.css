@@ -82,7 +82,3 @@ button.new-quote-btn {
   border: none;
   cursor: pointer;
 }
-
-button.new-quote-btn.hovered {
-  box-shadow: 0px 4px 25px 0px #0000001a;
-}
